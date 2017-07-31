@@ -39,3 +39,4 @@ JSON数据。(parseCookie方法);<br />
 > > 3. 我们为了利用多核CPU从而启动多个进程,用户请求的连接会随意分配各个线程中,而node的线程和线程之间不能直接共享内存的 <br />
 
 > 为解决性能问题和Session无法跨线程共享问题,常见的是将Session 集中化,统一转移到数据库中存储.比如redis
+# expressParse
